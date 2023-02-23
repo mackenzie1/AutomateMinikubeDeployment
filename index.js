@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+// <!-- <!DOCTYPE html> -->
 <html lang="en">
 
 <head>
@@ -6,23 +6,23 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Google Tag Manager -->
+  {/* <!-- Google Tag Manager --> */}
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+  {/* <!-- End Google Tag Manager --> */}
 
-  <!-- Materialize - Compiled and minified CSS-->
+  {/* <!-- Materialize - Compiled and minified CSS--> */}
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
+  {/* <!-- Font Awesome Icon - CSS--> */}
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
+  {/* <!-- Custom Styles--> */}
   <link rel="stylesheet" href="/assets/css/style.css" />
   <title>Mackenzie Harwood | Technologist</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -32,7 +32,7 @@
     gtag('config', 'UA-126939217-2');
   </script>
 
-  <!-- Open Graph-->
+  {/* <!-- Open Graph--> */}
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Mackenzie Harwood | Technologist" />
@@ -41,7 +41,7 @@
   <meta property="og:site_name" content="Mackenzie Harwood | Technologist" />
   <meta property="article:publisher" content="https://mackenzie1.github.io/" />
   <meta property="og:image" content="https://mackenzie1.github.io/examples/preview.JPG" />
-  <!-- Twitter -->
+  {/* <!-- Twitter --> */}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@varad_bhogayata" />
   <meta name="twitter:title" content="Coder | Technofreak | Explorer | Minimalist | Humane" />
@@ -67,25 +67,25 @@
   <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
   <meta name="theme-color" content="#ffffff" />
   <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
+  {/* <!-- Google Site Verification for indexing --> */}
   <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
+  {/* <!-- Google Tag Manager (noscript) --> */}
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
   height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
   
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
+  {/* <!-- Navigation Menu--> */}
+  {/* <!-- Nav class 1 --> */}
   <nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
 
       <li class="logo">
         <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
           class="brand-logo grey-blue-text">
-          <img src="/assets/img/mackenzie.jpg" class="circle img-responsive profile-pic" alt="avatar">
+          <img src="/assets/img/mackenzie.jpg" class="circle img-responsive profile-pic" alt="avatar"></img>
         </a>
       </li>
 
@@ -100,60 +100,48 @@
       </li>
 
       <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
+        {/* <!-- mdi-av-web small
+             mdi-av-my-library-books small--> */}
         <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projects</span></a>
       </li>
 
       <li class="bold">
-        <!--
+        {/* <!--
         ICONS:
         mdi-action-assessment
         mdi-social-poll
         mdi-av-equalizer
-        -->
+        --> */}
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
       
       <li class="bold">
-        <!--
+        {/* <!--
         ICONS:
-        -->
+        --> */}
         <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-school small"></i><span>Education</span></a>
       </li>
 
       <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
         <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
 
       <li class="bold">
-        <!--
-        ICONS:
-        1. mdi-action-description
-        2. mdi-file-folder
-        3. mdi-file-folder-open
-        4. mdi-file-attachment
-        5. mdi-file-folder-shared
-        -->
-        <!-- <a aria-label="Open Mackenzie's resume in a new tab" href="#resume" target="_blank"
+        
+        <a aria-label="Open Mackenzie's resume in a new tab" href="#resume" target="_blank"
           onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> 
         <a aria-label="Open Mackenzie's resume in a new tab" href="https://docs.google.com/document/d/e/2PACX-1vSwr8kEj_eQxM-hTSLf4oczuKcVFoSMSGzpFMzfdx9_v_MRvi3YI-YLK7PxNG51hw/pub" target="_blank"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
       </li>
     </ul>
   </nav>
 
-  <!-- Nav class 2 -->
+  {/* <!-- Nav class 2 --> */}
   <nav class="hide-on-large only trigger z-depth-1">
     <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
       class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -163,7 +151,7 @@
     </div>
   </nav>
 
-  <!-- Nav class 3 -->
+  {/* <!-- Nav class 3 --> */}
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
       <li class="bold">
@@ -200,9 +188,9 @@
     </ul>
   </nav>
 
-  <!-- Main Content-->
+  {/* <!-- Main Content--> */}
   <main>
-    <!-- First Section: Heading lines and image -->
+    {/* <!-- First Section: Heading lines and image --> */}
     <section id="intro" class="section scrollspy full-height">
       <div class="overlay"></div>
       <div class="container">
@@ -211,7 +199,7 @@
             <div class="caption">
               <h2>Hi, I'm <span class="teal">Mackenzie Harwood.</span></h2>
               <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#17f547"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+                <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> 
               <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
             </div>
             <div class="social">
@@ -236,16 +224,16 @@
       </div>
     </section>
 
-    <!-- Second Section: About -->
+    {/* <!-- Second Section: About --> */}
     <section id="about" class="section scrollspy">
       <h3 class="page-title white-text teal">About</h3>
       <div class="container flow-text">
-        <!-- <blockquote>
+         <blockquote>
           <h2>
             A Software Developer with a passion for Backend Development and Artificial Intelligence.
 
           </h2>
-        </blockquote> -->        
+        </blockquote>         
         <p>
           I am a technologist working in the federal constulting space. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do.
 
@@ -264,34 +252,34 @@
           
         </p>
           
-        <!-- <p>
+         <p>
           
           Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
-        </p> -->
+        </p> 
         <p>
           Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
         </p>
-        <!-- <p>
+        {/* <!-- <p>
           Another Paragraph
-        </p>  -->
-        <!-- <p>
+        </p>  --> */}
+        {/* <!-- <p>
         <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
           href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
           aria-label="Navigate to the Full Stack React homepage"
           href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
           aria-label='Navigate to the article "Scalable CSS"'
           href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
+        </p> --> */}
       </div>
     </section>
 
 
-    <!-- Third Section: Experience -->
+    {/* <!-- Third Section: Experience --> */}
     <section id="experience" class="section scrollspy">
       <h3 class="page-title white-text teal">Experience</h3>
       <div class="container">
 
-        <!-- Latest Experience -->
+        {/* <!-- Latest Experience --> */}
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -334,7 +322,7 @@
                 <a href="https://datasciencecorps.umbc.edu/" target="_blank"><img alt="UMBC logo"
                     src="/assets/img/umbc.png" class="responsive-img center-block" /></a>
               </div>
-              <!-- <div class="col s12 m10"> -->
+              {/* <!-- <div class="col s12 m10"> --> */}
               <div class="col s12 m10">
                 <p>
                   <span class="card-title"><a href="https://datasciencecorps.umbc.edu/" target="_blank"
@@ -364,7 +352,7 @@
           </div>
         </div>
 
-        <!-- Experience 2 -->
+        {/* <!-- Experience 2 --> */}
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -374,7 +362,7 @@
 
               </div>
 
-              <!-- <div class="col s12 m10"> -->
+               <div class="col s12 m10"> 
               <div class="col s12 m10">
                 <p>
                   <span class="card-title"><a href="#experience" class="teal-text hoverline">WebsiteInnovator</a></span>
@@ -399,7 +387,7 @@
           </div>
         </div>
 
-        <!-- Experience 3 -->
+        {/* <!-- Experience 3 --> */}
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -433,9 +421,10 @@
         </div>
 
       </div>
+      </div>
     </section>
 
-    <!-- Fourth Section: Projects -->
+    {/* <!-- Fourth Section: Projects --> */}
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
@@ -454,8 +443,7 @@
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                {/* <!-- TODO: change this -- only close button --> */}
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
@@ -493,8 +481,8 @@
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                {/* <!-- TODO: change this -- only close button --> */}
+              
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
@@ -517,8 +505,8 @@
             </div>
           </div>
 
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
+          {/* <!-- 1. Django Project --> */}
+          {/* <div class="col s12 m6 l6">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
@@ -552,10 +540,10 @@
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>  */}
 
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4">
+          {/* <!-- Flask Project --> */}
+          {/* <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of web app" src="/assets/img/project-blog-logo.jpg"
@@ -597,13 +585,13 @@
           <!-- ************* -->
         </div>
       </div>
-    </section>
+    </section> */}
 
-    <!-- Fifth Section: Skills -->
+    {/* <!-- Fifth Section: Skills --> */}
     <section id="skills" class="section scrollspy">
       <h3 class="page-title white-text teal">Skills</h3>
       <div class="container">
-        <!-- Languages and Databases -->
+        {/* <!-- Languages and Databases --> */}
         <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Languages and Databases</h4>
@@ -646,8 +634,8 @@
             </div>
           </div>
         </div>
-        <!-- Node.js, PyTorch, Bootstrap, Angular -->
-        <!-- Frameworks -->
+        {/* <!-- Node.js, PyTorch, Bootstrap, Angular --> */}
+        {/* <!-- Frameworks --> */}
         <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Frameworks</h4>
@@ -668,7 +656,7 @@
           </div>
         </div>
 
-        <!-- Other -->
+        {/* <!-- Other --> */}
         <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Other</h4>
@@ -688,7 +676,7 @@
           </div>
         </div>
 
-        <!-- certifications -->
+        {/* <!-- certifications --> */}
          <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Certificates</h4>
@@ -698,7 +686,7 @@
                   <div class="col s12 m6 l6">
                     <div class="card">
                       <div class="card-image">
-                        <img src="/assets/img/kubernetes.png">
+                        <img src="/assets/img/kubernetes.png"></img>
                       </div>
                       <div class="card-content">
                         <span class="card-title teal-text"><a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/f9af333c-fdf1-4524-9e52-1742c8131ad7-mackenzie-harwood-0dcf20a1-5225-4ad0-9658-40bdb178b77c-certificate.pdf" target="_blank" class="teal-text hoverline">Certified Kubernetes Administrator</a></span>
@@ -706,10 +694,10 @@
                     </div>
                   </div>
 
-                  <!-- <div class="col s12 m6 l6">
+                  {/* <!-- <div class="col s12 m6 l6"> */}
                     <div class="card">
                       <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
+                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg"></img>
                       </div>
                       <div class="card-content">
                         <span class="card-title teal-text">Administrator (Stanford)</span>
@@ -720,17 +708,17 @@
               </div>
             </div>
           </div>
-        </div>  -->
+        {/* </div>  --> */}
 
       </div>
     </section>
 
-    <!-- Seventh Section: Education -->
+    {/* <!-- Seventh Section: Education --> */}
     <section id="education" class="section scrollspy">
       <h3 class="page-title white-text teal">Education</h3>
       <div class="container">
         <div class="row">
-          <!-- Education -->
+          {/* <!-- Education --> */}
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-content">
@@ -740,7 +728,7 @@
                 <p class="brown-text">Frostburg, Maryland</p>
                 <p>
                   <b>Degree: </b>Information Systems      
-                  <br>
+                  <br></br>
                   <b>GPA: </b>4.0/4.0
                 </p>
 
@@ -769,7 +757,7 @@
                 <p class="brown-text">Baltimore, Maryland</p>
                 <p>
                   <b>Degree: </b>Bachelor of Science in Information Systems
-                  <br>
+                  <br></br>
                   <b>GPA: </b>3.31
                 </p>
 
@@ -793,7 +781,7 @@
       </div>
     </section>
 
-    <!-- Eight Section: Contact -->
+    {/* <!-- Eight Section: Contact --> */}
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
@@ -821,7 +809,7 @@
     </section>
   </main>
 
-  <!-- typed.js -->
+  {/* <!-- typed.js --> */}
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
@@ -833,10 +821,10 @@
   </script>
 
 
-  <!-- jQuery-->
+  {/* <!-- jQuery--> */}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-  <!-- Materialize - Compiled and minified JavaScript-->
+  {/* <!-- Materialize - Compiled and minified JavaScript--> */}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
   <script>
     // Materialize - Initializers

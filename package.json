@@ -1,0 +1,16 @@
+{
+    "name": "minikube_deploy",
+    "description": "",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mackenzie1/minikube-deployment.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "hhttps://github.com/mackenzie1/minikube-deployment/index.js"
+  }
