@@ -22,3 +22,13 @@ This script will build the Docker image, start a Minikube cluster, and deploy th
 This script will stop and remove the Kubernetes Deployment, Service, and Pod, as well as stop and delete the Minikube cluster.
 
 That's it! You now have a simple example of how to containerize a web application using Docker and deploy it to a Kubernetes cluster.
+=======
+# AutomateMinikubeDeployment
+Terraform Deploy Local Minikube(k8s) Cluser
+
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+
+
+Once the script is saved, you can run terraform apply to create the Minikube cluster and deploy the pod with the Alpine nginx image. 
+
+You can then use kubectl get pods to view the pod that you've created, or kubectl port-forward to access your pod
