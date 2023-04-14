@@ -29,3 +29,8 @@ This script will stop and remove the Kubernetes Deployment, Service, and Pod, as
 
 That's it! You now have a simple example of how to containerize a static page using Docker and deploy it to a Kubernetes cluster. :bouquet:  :sunflower:
 
+
+
+docker run -d -p 3000:80 --name minikube2 deploy
+
+build dockerfile with image name "deploy" in container with name "minikube2" running detached
