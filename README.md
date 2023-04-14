@@ -12,7 +12,7 @@ Before you can run the scripts in this project, you need to have the following s
 ## Running the Scripts
 To run the scripts in this project, follow these steps:
 
-1. Open a terminal window and navigate to the root directory of the project.
+1. Open a terminal window and navigate to the root directory of the project after cloning this repo.
 2. Build the Docker image by running the build-image.sh script:
 
 `./start.sh`
