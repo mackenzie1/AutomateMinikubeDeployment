@@ -32,3 +32,16 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 Once the script is saved, you can run terraform apply to create the Minikube cluster and deploy the pod with the Alpine nginx image. 
 
 You can then use kubectl get pods to view the pod that you've created, or kubectl port-forward to access your pod
+
+https://minikube.sigs.k8s.io/docs/drivers/docker/
+
+
+minikube start --driver=docker
+
+Windows
+
+minikube config set driver docker
+
+Build Dockerfile manually -run in folder
+
+Get-Content Dockerfile | docker build -
