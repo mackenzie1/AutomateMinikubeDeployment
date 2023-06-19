@@ -9,7 +9,7 @@ POD_NAME=portfolio-pod
 
 # Check if Minikube is running
 if ! minikube status >/dev/null 2>&1; then
-  echo "Minikube is not running. Please start Minikube before running this script."
+  echo "Minikube is not running. Please start Minikube before running this script. If you already have it installed the command is: minikube start"
   exit 1
 fi
 
