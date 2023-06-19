@@ -1,3 +1,4 @@
 {
-    "docker.showRemoteWorkspaceWarning": true
+    "docker.showRemoteWorkspaceWarning": true,
+    "liveServer.settings.port": 5501
 }
