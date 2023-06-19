@@ -1,4 +1,4 @@
-# Portfolio Page Containerized with Docker and Deployed to a Minikube Cluster :cloud:
+# Portfolio Page Containerized with Docker and Deployed to a Minikube Cluster :cloud: WIP
 - :woman_technologist: Portfolio website: https://mackenzie1.github.io/
 
 This project contains scripts to run a containerized image of a single static HTML page (my portfolio) using Docker and deploy it to a Minikube cluster running on your local machine. The goal of this project is to provide a simple example of how to containerize a web application using Docker and deploy it to a Kubernetes (minikube) cluster.
