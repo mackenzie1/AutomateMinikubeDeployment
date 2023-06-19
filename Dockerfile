@@ -1,11 +1,16 @@
 # syntax=docker/dockerfile:1
 # Use the official nginx image as the base image
-FROM node:18
+FROM node:14-alpine
+
+WORKDIR /usr/src/app
 
 # Copy the static HTML page to the default nginx public directory
-COPY index.html /usr/src
+COPY package*.json ./
 
 RUN npm install
+
+COPY . .
+
 # Expose port 80 for incoming traffic
 EXPOSE 80
 
