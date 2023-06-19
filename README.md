@@ -34,3 +34,22 @@ That's it! You now have a simple example of how to containerize a static page us
 `docker run -d -p 3000:80 --name minikube2 deploy`
 
 build dockerfile with image name "deploy" in container with name "minikube2" running detached
+
+
+You can then use kubectl get pods to view the pod that you've created, or kubectl port-forward to access your pod
+
+
+
+
+https://minikube.sigs.k8s.io/docs/drivers/docker/
+
+
+minikube start --driver=docker
+
+Windows
+
+minikube config set driver docker
+
+Build Dockerfile manually -run in folder
+
+Get-Content Dockerfile | docker build -
